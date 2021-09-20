@@ -1,7 +1,7 @@
 # A project for capturing cloudwatch metrics in Spring Boot.
 This project is a demonstration of connecting a Spring Boot application with  Amazon Cloudwatch and start sending application metrics using micrometer.
+![AWS-cloudwatch](https://user-images.githubusercontent.com/91077741/134038916-51cbb008-5fef-4693-a2be-a86773ff8bdd.jpg)
 
-https://github.com/shehzadhashmis/springcloudwatch/blob/master/src/main/resources/AWS-cloudwatch.jpg?raw=true
 
 # How to run it?
 1. Checkout this branch
