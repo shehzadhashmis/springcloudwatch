@@ -1,4 +1,4 @@
-# A project for capturing cloudwatch metrics in Spring Boot.
+# A project for capturing cloudwatch metrics in Spring Boot
 This project is a demonstration of connecting a Spring Boot application with  Amazon Cloudwatch and start sending application metrics using micrometer.
 
 ![AWS-cloudwatch](https://user-images.githubusercontent.com/91077741/134038916-51cbb008-5fef-4693-a2be-a86773ff8bdd.jpg)
@@ -85,7 +85,7 @@ Number of threads used for cloudwatch metric publishing i.e. 10.
 The batch size used for cloudwatch metrics publishing  i.e. 10.
 
 ## Spring Configuration File
-There only one magical Spring configuration file that does all the trick. It creates and initializes the beans for the following classes.
+There is only one magical Spring configuration file that does all the trick. It creates and initializes the beans for the following classes.
 ```
 io.micrometer.core.instrument.Clock
 software.amazon.awssdk.services.cloudwatch.CloudWatchAsyncClient
@@ -225,18 +225,17 @@ This application publishes metrics to cloudwatch which can be debugged by puttin
 
 
 ## Access CloudWatch From AWS Console
-Login to AWS Console [https://console.aws.amazon.com](https://console.aws.amazon.com)
-Select CloudWatch from the available services and then from the left side panel expand Metrics where you can find All metrics.
+Login to AWS Console [https://console.aws.amazon.com](https://console.aws.amazon.com). Select CloudWatch from the available services and then from the left side panel expand Metrics where you can find All metrics.
 
 <img width="1666" alt="Screen Shot 2021-09-21 at 9 34 50 AM" src="https://user-images.githubusercontent.com/91077741/134118172-bfb33548-857d-4760-8f85-e980e533441a.png">
 
-Here you can see our customer namespace cloudwatch_production. Please click on it.
+Here you can see our custom namespace cloudwatch_production. Please click on it.
 
 <img width="1679" alt="Screen Shot 2021-09-21 at 10 48 36 AM" src="https://user-images.githubusercontent.com/91077741/134118557-b25653a5-a4a1-4ef7-a215-5f89b7cb5a1e.png">
 
 
 ## Creating Dashboards
-There are plenty of metrics that we can use and build dashboards based on the particular requirement or use case. Here are some of dashboards that have been created.
+There are plenty of metrics that we can use and build dashboards based on the particular requirement or use case. Here are some of the dashboards that have been created.
 
 <img width="1679" alt="Screen Shot 2021-09-21 at 10 05 28 AM" src="https://user-images.githubusercontent.com/91077741/134118334-7280a3ed-a4e2-47aa-840e-e74cf405e2d1.png">
 
