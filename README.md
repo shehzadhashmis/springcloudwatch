@@ -66,7 +66,7 @@ cloud.aws.region.static=${AWS_REGION}
 ```
 
 ## Environment Variables
-The following properties need to be configured in application environment variables
+The following properties need to be configured in application environment variables.
 ### CLOUDWATCH_ENABLED
 We want to have a control where we can enable/disable cloudwatch. For this we have property with value true/false.
 ### ENV_NAME
@@ -78,7 +78,7 @@ Specifies an AWS access key associated with an IAM user or role.
 ### AWS_SECRET_ACCESS_KEY
 Specifies an AWS secret access key associated with an IAM user or role.
 ### CLOUDWATCH_STEP
-Number of seconds after which we need to publish metrics to cloudwatch i.e. 10s
+Number of seconds after which we need to publish metrics to cloudwatch i.e. 10s.
 ### CLOUDWATCH_NUM_THREADS
 Number of threads used for cloudwatch metric publishing i.e. 10.
 ### CLOUDWATCH_BATCH_SIZE
@@ -177,9 +177,9 @@ public class CloudWatchProperties extends StepRegistryProperties {
 ```
 
 # How to run it?
-1. Checkout this branch
-2. In order to run this application, please arrange an active AWS account
-3. Configure the following properties in environment variables
+1. Checkout this branch.
+2. In order to run this application, please arrange an active AWS account.
+3. Configure the following properties in environment variables.
 
 ```
 CLOUDWATCH_ENABLED=true
@@ -197,11 +197,10 @@ CLOUDWATCH_BATCH_SIZE=10
 mvn clean install
 ```
 
-6. Run as Spring Boot application
-
+6. Run as Spring Boot application.
 
 ## Debug Application
-This application publishes metrics to cloudwatch which can be debugged by putting a break point in publish method of class [io.micrometer.cloudwatch2.CloudWatchMeterRegistry](io.micrometer.cloudwatch2.CloudWatchMeterRegistry)
+This application publishes metrics to cloudwatch which can be debugged by putting a break point in publish method of class [io.micrometer.cloudwatch2.CloudWatchMeterRegistry](io.micrometer.cloudwatch2.CloudWatchMeterRegistry).
 ```
    @Override
     protected void publish() {
@@ -227,7 +226,7 @@ This application publishes metrics to cloudwatch which can be debugged by puttin
 
 ## Access CloudWatch From AWS Console
 Login to AWS Console [https://console.aws.amazon.com](https://console.aws.amazon.com)
-Select CloudWatch from the available services and then from the left side panel expand Metrics where you can find All metrics
+Select CloudWatch from the available services and then from the left side panel expand Metrics where you can find All metrics.
 
 <img width="1666" alt="Screen Shot 2021-09-21 at 9 34 50 AM" src="https://user-images.githubusercontent.com/91077741/134118172-bfb33548-857d-4760-8f85-e980e533441a.png">
 
