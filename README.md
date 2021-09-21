@@ -222,26 +222,28 @@ This application publishes metrics to cloudwatch which can be debugged by puttin
         }
     }
 ```
+<img width="1679" alt="Screen Shot 2021-09-21 at 10 02 08 AM" src="https://user-images.githubusercontent.com/91077741/134117249-735f4fa9-aa50-48b9-82ec-da00fe84f90d.png">
 
-![](/Users/shhashmi/Desktop/Screen Shot 2021-09-21 at 10.02.08 AM.png)
+
 ## Access CloudWatch From AWS Console
 Login to AWS Console [https://console.aws.amazon.com](https://console.aws.amazon.com)
 Select CloudWatch from the available services and then from the left side panel expand Metrics where you can find All metrics
 
-![](/Users/shhashmi/Desktop/Screen Shot 2021-09-21 at 9.34.50 AM.png)
+<img width="1666" alt="Screen Shot 2021-09-21 at 9 34 50 AM" src="https://user-images.githubusercontent.com/91077741/134118172-bfb33548-857d-4760-8f85-e980e533441a.png">
 
 Here you can see our customer namespace cloudwatch_production. Please click on it.
 
-![](/Users/shhashmi/Desktop/Screen Shot 2021-09-21 at 9.34.50 AM.png)
+<img width="1679" alt="Screen Shot 2021-09-21 at 10 48 36 AM" src="https://user-images.githubusercontent.com/91077741/134118557-b25653a5-a4a1-4ef7-a215-5f89b7cb5a1e.png">
 
-##Creating Dashboards
+
+## Creating Dashboards
 There are plenty of metrics that we can use and build dashboards based on the particular requirement or use case. Here are some of dashboards that have been created.
 
-![](/Users/shhashmi/Desktop/Screen Shot 2021-09-21 at 10.05.28 AM.png)
+<img width="1679" alt="Screen Shot 2021-09-21 at 10 05 28 AM" src="https://user-images.githubusercontent.com/91077741/134118334-7280a3ed-a4e2-47aa-840e-e74cf405e2d1.png">
 
-![](/Users/shhashmi/Desktop/Screen Shot 2021-09-21 at 10.06.20 AM.png)
+<img width="1679" alt="Screen Shot 2021-09-21 at 10 06 20 AM" src="https://user-images.githubusercontent.com/91077741/134118345-c173289f-7496-4698-87c0-fba433fcd22a.png">
 
-![](/Users/shhashmi/Desktop/Screen Shot 2021-09-21 at 10.07.42 AM.png)
+<img width="1679" alt="Screen Shot 2021-09-21 at 10 07 42 AM" src="https://user-images.githubusercontent.com/91077741/134118347-e8c82bab-bd2f-405e-a5cb-6a2d1fc30be4.png">
 
 ## Explore it more
 Its very useful to use CloudWatch metrics to analyze application internals in terms of database connections, cpu processing, heap memory usage etc. so we can benefit from it and build more robust applications.
