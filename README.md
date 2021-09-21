@@ -200,7 +200,7 @@ mvn clean install
 6. Run as Spring Boot application.
 
 ## Debug Application
-This application publishes metrics to cloudwatch which can be debugged by putting a break point in publish method of class [io.micrometer.cloudwatch2.CloudWatchMeterRegistry](io.micrometer.cloudwatch2.CloudWatchMeterRegistry).
+This application publishes metrics to cloudwatch which can be debugged by putting a break point in publish method of class [io.micrometer.cloudwatch2.CloudWatchMeterRegistry](https://github.com/micrometer-metrics/micrometer/blob/main/implementations/micrometer-registry-cloudwatch2/src/main/java/io/micrometer/cloudwatch2/CloudWatchMeterRegistry.java).
 ```
    @Override
     protected void publish() {
