@@ -16,7 +16,7 @@ import java.time.Duration;
  * A configuration class that configures a metrics registry to push aggregated metrics on Cloud Watch on a regular
  * interval.
  * 
- * @author hashmis
+ * @author shehzadhashmis
  */
 @Getter
 @Setter
